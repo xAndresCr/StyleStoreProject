@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Style store: Clothing store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+</head>
+
+<!-- Navbar superior -->
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">063326649</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored">
+                        <i class="fa-brands fa-facebook fa-beat fa-sm fa-fw me-2"></i>
+                    </a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-beat fa-sm fa-fw me-2"></i>
+                    </a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter fa-beat fa-sm fa-fw me-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                <img src="assets/img/logo6.png" alt="">
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/banner1.png" class="d-block w-100" alt="banner1" style="object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/img/banner2.png" class="d-block w-100" alt="banner2" style="object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/banner3.png" class="d-block w-100" alt="" style="object-fit: cover;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    
+   
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+       <div class="boton-interactivo">
+        <a href="#templatemo_main_nav" class="sticky-button">Ir al Menú</a>
+    </div>
+
+    
+    <section class="bg-light">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <div class="camisas-blusas-text">
+                        <h1 class="h1">Camisas y blusas</h1>
+                    <p>
+                        Sumergete en la gran variedad de productos de nuestro catálogo, por lo que te traemos
+                        camisas y blusas de diferentes estilos, acá puedes encontrar más ejemplos, !Adelante! toma tu
+                        tiempo, siéntate y relajate buscando lo que necesitas en tu tienda.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/blusa1.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡15.000</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Blusa Manga Corta</a>
+                            <p class="card-text">
+                                Blusa manga corta Azúl de Rayas, café, para mujer
+                            </p>
+                            <p class="text-muted">Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/blusa 2.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡15.900</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Blusa color papaya con rayas blancas</a>
+                            <p class="card-text">
+                                Blusa color papaya con rayas blancas para mujer
+                            </p>
+                            <p class="text-muted">Reviews (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/blusa 4.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡16.900</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Blusa gris</a>
+                            <p class="card-text">
+                                Blusa gris con rayas para mujer estilo oficina
+                            </p>
+                            <p class="text-muted">Reviews (74)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/camisa.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡21.900</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Camisa de verano color turqueza</a>
+                            <p class="card-text">
+                                Camisa de verano color turqueza para hombre con diseño floreado
+                            </p>
+                            <p class="text-muted">Reviews (15)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/camisa2.webp" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡21.900</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Camisa de verano color verde</a>
+                            <p class="card-text">
+                                Camisa de verano color verde para hombre con diseño de palmeras
+                            </p>
+                            <p class="text-muted">Reviews (30)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/camisa3.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡22.900</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Camisa casual para hombre de verano</a>
+                            <p class="card-text">
+                                Camisa casual para hombre de verano con rayas en diferentes colores
+                            </p>
+                            <p class="text-muted">Reviews (40)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+   
+
+    <section class="Tennis">
+        <div class="titulo-tenis_destacados">
+            <h2>Productos más vendidos en calzado</h2>
+            <p>Tu mejor página en productos de calzado, no esperes más y aprovecha nuestras ofertas disponibles en tenis.
+                Con la compra de nuestro productos de sentirás más atractivo y vestirás de manera elegante. Nos especializamos
+                en la venta de productos de vestimenta tanto para hombre como para mujer.
+            </p>
+        </div>
+        <div class="Tennis-container">
+            <div class="tenis">
+                <img src="/assets/img/tennis1.png" alt="Tenis 1">
+                <h3>Nike Air Force 1 LE</h3>
+                    <p><b>Marca:</b> Nike</p>
+                    <p><b>Precio:</b> $10.00</p>
+                <div class="d-grid gap-2 col-6 mx-auto boton">
+                    <button class="comprar-btn" type="button">Comprar</a></button>
+                </div>
+            </div>
+            <!-- Repetir -->
+            <div class="tenis">
+                <img src="/assets/img/tenis10.jpg" alt="Tenis 2">
+                <h3>Adidas Swift Run 22</h3>
+                    <p><b>Marca:</b> Adidas</p>
+                    <p><b>Precio:</b> $10.00</p>
+                    <div class="d-grid gap-2 col-6 mx-auto boton">
+                        <button class="comprar-btn" type="button">Comprar</button>
+                    </div>
+            </div>
+            <div class="tenis">
+                <img src="/assets/img/tennis11.jpg" alt="Tenis 3">
+                <h3>Nike Flex Experience</h3>
+                <p><b>Marca:</b> Nike</p>
+                <p><b>Precio:</b> $10.00</p>
+                    <div class="d-grid gap-2 col-6 mx-auto boton">
+                     <button class="comprar-btn" type="button">Comprar</button>
+                </div>
+            </div>
+            <div class="tenis">
+                <img src="/assets/img/tennis9.jpg" alt="Tenis 4">
+                <h3>Adidas VL Court 3.0 </h3>
+                <p><b>Marca:</b>Adidas</p>
+                <p><b>Precio:</b> $10.00</p>
+                    <div class="d-grid gap-2 col-6 mx-auto boton">
+                     <button class="comprar-btn" type="button">Comprar</button>
+                </div>
+            </div>
+            <div class="tenis">
+                <img src="/assets/img/tenis5.avif" alt="Tenis 5">
+                <h3>Adidas Grand Court 2.0</h3>
+                <p><b>Marca:</b>Adidas</p>
+                <p><b>Precio:</b> $10.00</p>
+                    <div class="d-grid gap-2 col-6 mx-auto boton">
+                     <button class="comprar-btn" type="button">Comprar</button>
+                </div>
+            </div>
+            <div class="tenis">
+                <img src="/assets/img/tenis6.jpg" alt="Tenis 6">
+                <h3>Adidas VL Court 3.0</h3>
+                <p><b>Marca:</b>Adidas</p>
+                <p><b>Precio:</b> $10.00</p>
+                <div class="d-grid gap-2 col-6 mx-auto boton">
+                      <button class="comprar-btn" type="button">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    
+    <section>
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <div class="camisas-blusas-text">
+                        <h1 class="h1">Pantalonetas y Shorts</h1>
+                    <p>
+                        Aprovecha nuestros descuentos disponibles en pantlonetas, se acerca el verano por lo que estos estilos 
+                        te ayudarán a mantenerte más fresco y sin calor.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/puma-deportiva2.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡24.000</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Pantaloneta deportiva</a>
+                            <p class="card-text">
+                                Pantaloneta deportiva PUMA azul a ₡12.000
+                            </p>
+                            <p class="text-muted">Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/adidas-deportiva3.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡22.000</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Pantaloneta deportiva</a>
+                            <p class="card-text">
+                                Pantaloneta deportiva AIDADAS a tan solo ₡11.000
+                            </p>
+                            <p class="text-muted">Reviews (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/puma-deportiva1.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡23.500</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Pantaloneta deportiva</a>
+                            <p class="card-text">
+                                Pantaloneta deportiva PUMA tipo fut a tan solo ₡14.000
+                            </p>
+                            <p class="text-muted">Reviews (74)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/Falda Short Unexpected cintura 1.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡18.00</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Falda short</a>
+                            <p class="card-text">
+                                Falda Short para mujer cintura a tan solo ₡9.000
+                            </p>
+                            <p class="text-muted">Reviews (15)</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/Short corto de mezclilla 2.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡10.000</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Short de mezclilla</a>
+                            <p class="card-text">
+                                Short de mezclilla color negro oscuro para mujer a tan solo ₡5.000
+                            </p>
+                            <p class="text-muted">Reviews (30)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="shop-single.html">
+                            <img src="./assets/img/Short RBX deportivo 1.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">₡8.000</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Short RBX deportivo</a>
+                            <p class="card-text">
+                                Short RBX deportivo para mujer a tan solo ₡4.000
+                            </p>
+                            <p class="text-muted">Reviews (40)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <div class="container-banner-final">
+        <img src="assets/img/banner-envio-inicio.png" alt="">
+    </div>
+    <br>
+    <!-- Start Footer -->
+    
+<footer class="custom-footer" id="templatemo_footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-12 pt-5">
+                <h3 class="top-footer">Style Store</h3>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw footer-left"> Ubicación</i>
+                        
+                    <li>
+                        <i class="fa fa-phone fa-fw footer-left"></i>
+                        <a class="text-decoration-none" href="tel:010-020-0340">63326649</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-fw footer-left"></i>
+                        <a class="text-decoration-none" href="mailto:info@company.com">andresscastilloo81@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-12 pt-5">
+                <h3 class="top-footer">Productos</h3>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="#">Jeans</a></li>
+                    <li><a class="text-decoration-none" href="#">Pantalonetas</a></li>
+                    <li><a class="text-decoration-none" href="#">Tenis</a></li>
+                    <li><a class="text-decoration-none" href="#">Blusas para mujer</a></li>
+                    <li><a class="text-decoration-none" href="#">Camisetas y camisas para hombre</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-12 pt-5">
+                <h3 class="top-footer">Información</h3>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="#">Inicio</a></li>
+                    <li><a class="text-decoration-none" href="#">Nosotros</a></li>
+                    <li><a class="text-decoration-none" href="#">Blog</a></li>
+                    <li><a class="text-decoration-none" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row text-light mb-4">
+            <div class="col-12 mb-3">
+                <div class="w-100 my-3 border-top border-light"></div>
+            </div>
+            <div class="col-auto me-auto iconos">
+                <ul class="list-inline text-left footer-icons">
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-down-footer">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-left text-light">
+                        Copyright &copy; 2024 Style-Store, todos los derechos reservados
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
